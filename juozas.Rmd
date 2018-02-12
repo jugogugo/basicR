@@ -1,3 +1,9 @@
+```{r setup, echo=FALSE, include=FALSE}
+# Here I load all the packages that I will need
+library(ggplot2)
+library(data.table)
+```
+
 # Juozas
 
 Man patinka sinusoidės:
@@ -7,5 +13,13 @@ a <- 0.3;
 b <- 0.5;
 x <- 1:24
 y <- a * sin(2*pi*(x/24)) + b*cos(2*pi*(x/24))
-plot(x, y, type='b')
+
+# Put the data into a data matrix:
+dt <- data.table(X=x, Y=y)
+
+# Plot with ggplot
+ggplot(dt, aes(X, Y)) + 
+  geom_point() + 
+  geom_line() + 
+  theme_bw()
 ```
