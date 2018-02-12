@@ -1,0 +1,7 @@
+---
+title: "BasicR website"
+---
+
+Hello there! Learn to construct websites from your analysis using this link:
+
+[Rmarkdown websites](https://rmarkdown.rstudio.com/rmarkdown_websites.html)
