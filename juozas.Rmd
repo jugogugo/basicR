@@ -1,0 +1,11 @@
+# Juozas
+
+Man patinka sinusoidės:
+
+```{r, include=TRUE, echo=TRUE}
+a <- 0.3;
+b <- 0.5;
+x <- 1:24
+y <- a * sin(2*pi*(x/24)) + b*cos(2*pi*(x/24))
+plot(x, y, type='b')
+```
