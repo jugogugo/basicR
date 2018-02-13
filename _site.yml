@@ -2,5 +2,11 @@ name: "my-website"
 navbar:
   title: "My Website"
   left:
+    - text: "Home"
+      href: index.html
+    - text: "Juozas"
+      href: juozas.html
+    - text: "Rolandas"
+      href: rolandas.html
     - text: "Dalia"
       href: 1uzduotis.html

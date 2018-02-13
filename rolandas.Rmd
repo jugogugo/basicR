@@ -1,0 +1,22 @@
+```{r setup, echo=FALSE, include=FALSE}
+# Loading needed packages
+library(ggplot2)
+library(data.table)
+```
+
+# Rolandas
+
+Archimedo spiralė - didinant 's' argumentą, didėja spiralės suktumas
+
+```{r, include=TRUE, echo=TRUE}
+s <- 20
+t <- seq(0, s, by=0.1)
+y <- t*cos(t)
+x <- t*sin(t)
+
+# Plot with ggplot
+ggplot(data.frame(x,y), aes(x, y)) + 
+  geom_point() + 
+  geom_path() + 
+  theme_bw()
+```
