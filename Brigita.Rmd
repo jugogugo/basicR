@@ -1,14 +1,9 @@
----
-title: "Pirmoji funkcija"
-author: "Brigita Ižganaitytė"
----
-
-#BDA
+#Brigita
 
 Funkcijos braižymas.
 
 ```{r function, include=TRUE, echo=TRUE}
-x <- 1:15
+x <- 1:10
 y <- 500 *x * sin(pi*x)
 
 #funkcijai braizyti naudoju plot
