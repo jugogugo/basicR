@@ -1,0 +1,12 @@
+---
+author: "Domas Motiejūnas"
+title: "Domas Motiejūnas"
+output: html_document
+---
+Panaudojus funkciją plot braižoma funkcija y = sin(x)+cos(x).
+
+```{echo=FALSE}
+x <- -30:30
+y <- sin (x) + cos(x)
+plot(x, y, type='l')
+```
