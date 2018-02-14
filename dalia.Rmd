@@ -9,6 +9,7 @@ Sinusoidė, įkvėpta grupės Arctic Monkeys albumo "AM" viršelio.
 
 
 ```{r 1uzduotis}
+require(data.table)
 x <- -80:80
 y <- (sin(x)*sin(20*x))
 
