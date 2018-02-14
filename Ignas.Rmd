@@ -1,0 +1,16 @@
+---
+author: "Ignas Labalaukis"
+title: "Ignas Labalaukis"
+date: "February 13, 2018"
+output: html_document
+---
+```{r, include=TRUE, echo=TRUE}
+a <- -5;
+b <- 3;
+c <- -100
+d <- 120
+```
+Funkcijos braižymas pasinaudojant R komanda curve.
+```{r pressure, echo=FALSE}
+curve(x^b-a*x, c, d)
+```
