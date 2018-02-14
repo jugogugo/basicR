@@ -1,0 +1,19 @@
+```{r setup, echo=FALSE, include=FALSE}
+# Loading needed packages
+library(ggplot2)
+library(data.table)
+```
+
+# Vitalija
+
+Pavaizduotas funkcijos grafikas yra kubinė parabolė.
+
+```{r, include=TRUE, echo=TRUE}
+a <- 3;
+b <- 9;
+x <- -5:5;
+y <- x^a-b*x;
+
+# Funkcijos braižymas
+plot(x, y, type='l')
+```
