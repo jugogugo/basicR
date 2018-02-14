@@ -1,0 +1,25 @@
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Dalia
+
+Sinusoidė, įkvėpta grupės Arctic Monkeys albumo "AM" viršelio.
+
+
+```{r 1uzduotis}
+x <- -80:80
+y <- (sin(x)*sin(20*x))
+
+# Put the data into a data matrix:
+dt <- data.table(X=x, Y=y)
+
+# Plot with ggplot
+ggplot(dt, aes(X, Y)) + 
+  geom_line() + 
+  theme_bw()
+```
+
+
+
