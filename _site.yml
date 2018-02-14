@@ -28,6 +28,8 @@ navbar:
       href: Noreika1.html
     - text: "Domas"
       href: Domas.html
+    - text: "Reda"
+      href: Reda.html
     - text: "Paulius"
       href: Paulius.html
     - text: "Dovile"
