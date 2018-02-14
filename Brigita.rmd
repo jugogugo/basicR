@@ -2,11 +2,17 @@
 author: "Brigita Ižganaitytė"
 title: Brigita Ižganaitytė
 ---
-Funkcijos braižymas naudojant plot. 
----
-```{r}
+#BDA
+
+Pirmoji užduotis
+
+```{r 1uzduotis}
 x <- 1:15
 y <- 500 * x * sin(pi*x)
+```
 
+Funkcijos braižymas naudojant plot. 
+
+```{r}
 plot(x, y, type='l', col='blue', lwd=3)
 ```
