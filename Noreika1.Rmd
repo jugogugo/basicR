@@ -4,6 +4,9 @@ author: "Rimvydas Noreika"
 date: '2018 m vasario 14 d '
 output: html_document
 ---
+
+# Rimvydas 
+
 Funkcijos vaizdavimas naudojant R markdown
 
 Naudojamos bibliotekos
