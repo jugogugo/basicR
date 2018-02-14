@@ -3,9 +3,10 @@ author: "Domas Motiejūnas"
 title: "Domas Motiejūnas"
 output: html_document
 ---
+#Domas
 Panaudojus funkciją plot braižoma funkcija y = sin(x)+cos(x).
 
-```{echo=FALSE}
+```{r, include=TRUE, echo=FALSE}
 x <- -30:30
 y <- sin (x) + cos(x)
 plot(x, y, type='l')
