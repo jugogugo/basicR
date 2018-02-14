@@ -1,10 +1,14 @@
-#Edgaras
-
-Sukuriu normaliojo skirstinio funkcijà
-```{r, include=TRUE, echo=TRUE}
+---
+title: "edgaras1"
+author: "EdgarasLegus"
+date: '2018 m vasaris 14 d '
+output: html_document
+---
+Sukuriu normaliojo skirstinio funkcijÄ…
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
 X <- c(1:1000)*0.01-5;
 Density <- dnorm(X);
-T1 <- dt(X,1);
-plot(x=X,y=Density,type='l',xlab="X-axis",ylab="Density",xlim=c(-5,5),ylim=c(0,0.4),col='2')
+T1 <- dt(X,1); 
+plot(x=X,y=Density,type='l',xlab="X-axis",ylab="Density",xlim=c(-5,5),ylim=c(0,0.4),col='2');
 ```
-
