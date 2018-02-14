@@ -1,0 +1,15 @@
+# Leonas
+
+Tai pirmoji funkcija BDA paskaitai. Sukombinavau naudodamas natūrinio logaritmo bei kosinuso funkcijas.
+
+```{r}
+x <- seq(0,5,0.10)
+y <- (log(x/2))^2/cos(x)
+```
+
+Funkcijos braižymas su plot komanda:
+
+```{r}
+plot(y, type="l")
+```
+

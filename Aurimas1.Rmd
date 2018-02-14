@@ -1,0 +1,12 @@
+# Aurimas
+
+Lyginės funkcijos pavyzdys - parabolė f(x)=ax+bx+c, kai c=0
+
+```{r, include=TRUE, echo=TRUE}
+a <- 3
+b <- 1.2
+x <- -20:20
+y <- a*x + b*x
+
+plot(x, y, type='l')
+```

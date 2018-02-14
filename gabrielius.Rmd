@@ -1,0 +1,15 @@
+```{r setup, echo=FALSE, include=FALSE}
+```
+
+# Gabrielius
+
+Catenary curve:
+This curve models the force of gravity acting on a perfect, uniform, flexible chain between two supports.
+
+```{r, include=TRUE, echo=TRUE}
+a <- 5
+x <- -10:10
+y <- a * (exp(x/a) + exp(-x/a))/2
+
+plot(x, y, type='l')
+```
