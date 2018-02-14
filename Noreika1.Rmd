@@ -1,0 +1,26 @@
+---
+title: "Pirmas darbas"
+author: "Rimvydas Noreika"
+date: '2018 m vasario 14 d '
+output: html_document
+---
+
+# Rimvydas 
+
+Funkcijos vaizdavimas naudojant R markdown
+
+Naudojamos bibliotekos
+```{r}
+library(ggplot2)
+```
+
+funkcijos realizavimas
+```{r}
+f <- function(x){ sqrt( 1 - (abs(x) - 1)^2 ) }
+```
+
+Funkcijos grafikas, kai x ∈[-2,2]
+```{r}
+p <- ggplot(data = data.frame(x=0), mapping = aes(x = x))
+p + stat_function(fun = f) + xlim(-2,2)
+```

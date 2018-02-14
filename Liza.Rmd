@@ -1,0 +1,12 @@
+---
+title: "Sigmoid function"
+author: "Liza"
+---
+
+Funkcija, kurios grafikas 'S' formos.
+
+```{r function, include=TRUE, echo=TRUE}
+x <- -6:6
+y <- exp(x)/ (exp(x) + 1)
+plot(x, y, type='l')
+```
