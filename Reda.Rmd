@@ -1,0 +1,15 @@
+---
+title: "Reda"
+author: "Reda Vaisėtaitė"
+output: html_document
+---
+
+
+```{r, include=TRUE, echo=TRUE}
+x <- -15:15;
+y <- 0.5*cos(x)^2+2;
+```
+Funkcija, kurioje panaudojamas kosinusas.
+```{r, include=TRUE, echo=TRUE}
+plot(x,y, type='l')
+```
