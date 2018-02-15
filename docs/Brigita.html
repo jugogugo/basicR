@@ -245,14 +245,15 @@ $(document).ready(function () {
 </div>
 
 
-<div id="leonas" class="section level1">
-<h1>Leonas</h1>
-<p>Tai pirmoji funkcija BDA paskaitai. Sukombinavau naudodamas natūrinio logaritmo bei kosinuso funkcijas.</p>
-<pre class="r"><code>x &lt;- seq(0,5,0.10)
-y &lt;- (log(x/2))^2/cos(x)</code></pre>
-<p>Funkcijos braižymas su plot komanda:</p>
-<pre class="r"><code>plot(y, type=&quot;l&quot;)</code></pre>
-<p><img src="leonas_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+<div id="brigita" class="section level1">
+<h1>Brigita</h1>
+<p>Funkcijos braižymas.</p>
+<pre class="r"><code>x &lt;- 1:10
+y &lt;- 500 *x * sin(pi*x)
+
+#funkcijai braizyti naudoju plot
+plot(x,y, type=&#39;l&#39;, col=&#39;blue&#39;, lwd=3)</code></pre>
+<p><img src="Brigita_files/figure-html/function-1.png" width="672" /></p>
 </div>
 
 
