@@ -1,0 +1,11 @@
+---
+title: Gabriele Dilyte
+---
+
+# Funkcijos f(x)=sin(x)*x braizymas, kai x=[0,25].
+```{r}
+x <- 0:25
+y <- sin(x) * x
+plot(x, y, type='l')
+```
+

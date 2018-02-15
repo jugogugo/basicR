@@ -26,6 +26,8 @@ navbar:
       href: Liza.html
     - text: "Rimvydas"
       href: Noreika1.html
+    - text: "Gabriele"
+      href: Gabriele.html  
     - text: "Domas"
       href: Domas.html
     - text: "Reda"
@@ -36,4 +38,3 @@ navbar:
       href: Dovile.html
     - text: "Brigita"
       href: Brigita.html
-      
