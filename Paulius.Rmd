@@ -1,0 +1,15 @@
+---
+title: '1 užduotis'
+author: "Paulius"
+date: "February 14, 2018"
+output: html_document
+---
+
+#Paulius
+
+Papraščiausia funkcija, kurią sugalvojau. Sinusoidė, kurios argumentas kosinususo sandauga su eksponente. Panaudota braižymo funkcija curve
+
+```{r echo=TRUE}
+func <- function(x) sin(cos(x)*exp(-x/2))
+curve(func, -6, 5, n=1900)
+```

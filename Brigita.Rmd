@@ -1,0 +1,11 @@
+#Brigita
+
+Funkcijos braižymas.
+
+```{r function, include=TRUE, echo=TRUE}
+x <- 1:10
+y <- 500 *x * sin(pi*x)
+
+#funkcijai braizyti naudoju plot
+plot(x,y, type='l', col='blue', lwd=3)
+```

@@ -11,7 +11,7 @@
 
 
 
-<title></title>
+<title>Pirma užduotis</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -235,20 +235,22 @@ $(document).ready(function () {
 
 
 
+<h1 class="title toc-ignore">Pirma užduotis</h1>
+<h4 class="date"><em>2/14/2018</em></h4>
 
 </div>
 
 
-<div id="aurimas" class="section level1">
-<h1>Aurimas</h1>
-<p>Lyginės funkcijos pavyzdys - parabolė f(x)=ax+bx+c, kai c=0</p>
-<pre class="r"><code>a &lt;- 3
-b &lt;- 1.2
-x &lt;- -20:20
-y &lt;- a*x + b*x
-
-plot(x, y, type=&#39;l&#39;)</code></pre>
-<p><img src="Aurimas1_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+<div id="dovile" class="section level1">
+<h1>Dovilė</h1>
+<p>Mano funkcija valentino dienos proga:</p>
+<pre class="r"><code>dat &lt;- data.frame(t=seq(0, 2*pi, by=0.1) )
+xhrt &lt;- function(t) 16*sin(t)^3
+yhrt &lt;- function(t) 13*cos(t)-5*cos(2*t)-2*cos(3*t)-cos(4*t)
+dat$y=yhrt(dat$t)
+dat$x=xhrt(dat$t)
+with(dat, plot(x,y, type=&quot;l&quot;))</code></pre>
+<p><img src="Dovile_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
 </div>
 
 
