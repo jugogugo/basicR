@@ -1,0 +1,17 @@
+---
+author: Karolina
+title: Sinusoide
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+x <- 0
+y <- 3*pi
+```
+
+# Sinusoides braizymas
+
+```{r x,y, echo=FALSE}
+plot(sin,x,y)
+```
