@@ -12,6 +12,6 @@ y <- 3*pi
 
 # Sinusoides braizymas
 
-```{r x,y, echo=FALSE}
+```{r, echo=FALSE}
 plot(sin,x,y)
 ```
