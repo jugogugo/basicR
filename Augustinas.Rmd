@@ -1,0 +1,16 @@
+---
+title: Augustinas
+---
+
+```{r, include=FALSE}
+w <- 3
+mean <- 0
+sdev <- 1
+```
+
+##Normalioji distribucija
+Vidurkis: `r mean`, nuokrypis: `r sdev`
+
+```{r, echo=FALSE}
+curve(dnorm(x, mean=mean), lwd = 2, col = 'red', from=-w, to=w)
+```
